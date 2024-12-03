@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-migra: 'Migra', serif;
+  }
+}
+
+.font-migra {
+  font-family: var(--font-migra);
+}
+
